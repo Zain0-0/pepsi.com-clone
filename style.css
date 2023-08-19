@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: "sofia pro black",Arial, Helvetica , sans-serif,Arial, Helvetica neue;
+  height: 1000vh;
+}
+.navbar {
+  background-color: #0065c3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  text-transform: uppercase;
+  padding: 10px;
+  color: white;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.navbar-item {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.navbar-right.navbar.item {
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 5px 25px;
+}
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.product-item img {
+  max-width: 100%;
+  padding: 20px;
+}
+.product-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200%;
+}
+.product-item-column {
+  flex-direction: column;
+}
+.pepsi-zero {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: small 60% 80%;
+
+}
+.product-text {
+  color: white;
+  font-size: 23px;
+  text-align: center;
+}
+.product-botton {
+  color: white;
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 5px 35px;
+}
+
+
+  
+.main-container {
+  background-color: #265cc5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+
+
+.left-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-images img {
+  width: 400px; 
+  height: 200px; 
+}
+.image1{
+
+  margin: 2px;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: monospace, monospace;
+  background-color: blue;
+  text-align: center;
+  width: 400px;
+}
+.image2{
+  margin: 2px;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: monospace, monospace;
+  background-color: blue;
+  text-align: center;
+  width: 400px;
+}
+
+.right-image {
+  margin-left: 50px; 
+}
+.right-image{
+  margin: 3%;
+  width: 900px; 
+  height: 610px;
+  background-image: url("https://www.pepsi.com/en-us/uploads/images/better-with-pepsi/PEP_BWP_D.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.right-image img {
+  margin: 4%;
+  width: 500px; 
+  height: 150px; 
+  
+}
+.rigth-image {
+  position: relative;
+  position: absolute;
+}
+
+.right-image img {
+  overflow: hidden;
+ 
+}
